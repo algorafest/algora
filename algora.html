@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algora: Where Code Meets Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Effects -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <div class="logo">A</div>
+            <h1 class="logo-text">Algora</h1>
+        </div>
+        <div class="header-actions">
+            <button class="search-trigger" aria-label="Search">
+                <i class="fa-solid fa-search"></i>
+            </button>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Side Menu -->
+    <div class="menu-trigger-area"></div>
+    <div class="side-menu">
+        <button class="menu-close">
+            <i class="fa-solid fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <a href="#home" class="nav-link">
+            <i class="fa-solid fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#events" class="nav-link">
+            <i class="fa-solid fa-calendar-alt"></i>
+            <span>Events</span>
+        </a>
+        <a href="#contact" class="nav-link">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <!-- Search -->
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search events, skills, etc...">
+            <button class="search-close">
+                <i class="fa-solid fa-times"></i>
+            </button>
+        </div>
+        <div class="search-results">
+            <!-- Search results will be populated here -->
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <h1>Algora <span>2025</span></h1>
+        <p>Where Code Meets Community</p>
+        <a href="#events" class="hero-btn">Explore Events</a>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <h2 class="section-title">Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/api/placeholder/400/200" alt="Quiz Competition">
+                </div>
+                <div class="event-content">
+                    <h3>Quiz</h3>
+                    <p>Test your knowledge in various domains of technology and win exciting prizes.</p>
+                    <a href="#" class="event-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/api/placeholder/400/200" alt="Photopia">
+                </div>
+                <div class="event-content">
+                    <h3>Photopia</h3>
+                    <p>Showcase your photography skills and capture the essence of technology.</p>
+                    <a href="#" class="event-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/api/placeholder/400/200" alt="WebAlgo">
+                </div>
+                <div class="event-content">
+                    <h3>WebAlgo</h3>
+                    <p>Design and develop innovative web solutions for real-world problems.</p>
+                    <a href="#" class="event-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/api/placeholder/400/200" alt="ReelRush">
+                </div>
+                <div class="event-content">
+                    <h3>ReelRush</h3>
+                    <p>Create engaging short video content on technology themes.</p>
+                    <a href="#" class="event-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/api/placeholder/400/200" alt="Debugging">
+                </div>
+                <div class="event-content">
+                    <h3>Debugging</h3>
+                    <p>Find and fix bugs in complex code challenges against the clock.</p>
+                    <a href="#" class="event-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-img">
+                    <img src="/api/placeholder/400/200" alt="Treasure Hunt">
+                </div>
+                <div class="event-content">
+                    <h3>Treasure Hunt</h3>
+                    <p>Solve coding puzzles to find clues leading to the ultimate treasure.</p>
+                    <a href="#" class="event-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section removed as requested -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Location</h4>
+                        <p>Malabar College of Arts and Science, Moodadi - Koyilandy</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Phone</h4>
+                        <p>+91 999 999 9999</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p>itfestmcas@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/" class="social-link" target="_blank" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://instagram.com/" class="social-link" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/" class="social-link" target="_blank" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/" class="social-link" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" class="social-link" target="_blank" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <div class="logo-container" style="justify-content: center;">
+                <div class="logo">A</div>
+                <h3 class="logo-text">Algora</h3>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#events" class="footer-link">Events</a>
+            <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <div class="social-links" style="justify-content: center;">
+            <a href="https://www.youtube.com/" class="social-link" target="_blank" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://instagram.com/" class="social-link" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/" class="social-link" target="_blank" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://linkedin.com/in/" class="social-link" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/" class="social-link" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+        </div>
+        <p class="copyright">© 2025 Malabar College of Arts and Science. All Rights Reserved. | Developed By <a href="https://instagram.com/nadeerframes" target="_blank" style="color: var(--primary); text-decoration: none;">Muhammed Nadeer</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
