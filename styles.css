@@ -124,7 +124,7 @@ header {
 .side-menu {
     position: fixed;
     top: 0;
-    right: -300px;
+    left: -300px;
     width: 300px;
     height: 100vh;
     background-color: var(--card-bg);
@@ -135,13 +135,13 @@ header {
 }
 
 .side-menu.open {
-    right: 0;
+    left: 0;
 }
 
 .menu-trigger-area {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     width: 50px;
     height: 100vh;
     z-index: 999;
